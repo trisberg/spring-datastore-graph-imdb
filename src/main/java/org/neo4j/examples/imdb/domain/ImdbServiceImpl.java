@@ -119,7 +119,7 @@ class ImdbServiceImpl implements ImdbService {
             throw new NoSuchElementException(
                     "Unable to find Kevin Bacon actor");
         }
-        final Node actorNode = ((Actor) actor).getUnderlyingNode();
+        final Node actorNode = ((Actor) actor).getUnderlyingState();
         final List<Node> list = pathFinder.shortestPath(actorNode, baconNode,
                 RelTypes.ACTS_IN);
         return convertNodesToActorsAndMovies(list);

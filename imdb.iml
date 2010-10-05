@@ -9,7 +9,6 @@
         <webroots>
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
-        <context-artifact name="imdb:war exploded" />
       </configuration>
     </facet>
   </component>
@@ -45,18 +44,17 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-aspects:3.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:3.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:3.0.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.data:data-commons:1.0.0.CI-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: javax.persistence:persistence-api:1.0" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.datastore:datastore-graph:1.0.0.CI-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:1.0.0.M1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-datastore-graph:1.0.0.M1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.neo4j:neo4j-kernel:1.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.neo4j:neo4j-utils:1.1" level="project" />
     <orderEntry type="library" name="Maven: org.neo4j:neo4j-index:1.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-core:2.9.2" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:3.0.3.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-orm:3.0.3.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.datastore:datastore-cross-store:1.0.0.CI-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: org.hsqldb:hsqldb:1.8.0.10" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:3.0.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-orm:3.0.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-datastore-cross-store:1.0.0.M1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.0.Final" level="project" />
     <orderEntry type="library" name="Maven: javax.validation:validation-api:1.0.0.GA" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-validator:4.0.2.GA" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tiles:tiles-core:2.2.1" level="project" />

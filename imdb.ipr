@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AjcSettings">
+    <option name="ajcPath" value="$MAVEN_REPOSITORY$/org/aspectj/aspectjtools/1.6.10.BUILD-SNAPSHOT/aspectjtools-1.6.10.BUILD-SNAPSHOT.jar" />
+    <option name="cmdLineParams" value="-Xmx256m -target 1.6" />
+  </component>
   <component name="ArtifactManager">
     <artifact type="war" name="imdb:war">
       <output-path>$PROJECT_DIR$/target</output-path>
@@ -33,18 +37,17 @@
             <element id="library" level="project" name="Maven: org.springframework:spring-aspects:3.0.4.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.0.4.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.0.4.RELEASE" />
-            <element id="library" level="project" name="Maven: org.springframework.data:data-commons:1.0.0.CI-SNAPSHOT" />
-            <element id="library" level="project" name="Maven: javax.persistence:persistence-api:1.0" />
-            <element id="library" level="project" name="Maven: org.springframework.datastore:datastore-graph:1.0.0.CI-SNAPSHOT" />
+            <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:1.0.0.M1-SNAPSHOT" />
+            <element id="library" level="project" name="Maven: org.springframework.data:spring-datastore-graph:1.0.0.M1-SNAPSHOT" />
             <element id="library" level="project" name="Maven: org.neo4j:neo4j-kernel:1.1" />
             <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1" />
             <element id="library" level="project" name="Maven: org.neo4j:neo4j-utils:1.1" />
             <element id="library" level="project" name="Maven: org.neo4j:neo4j-index:1.1" />
             <element id="library" level="project" name="Maven: org.apache.lucene:lucene-core:2.9.2" />
-            <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.0.3.RELEASE" />
-            <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.0.3.RELEASE" />
-            <element id="library" level="project" name="Maven: org.springframework.datastore:datastore-cross-store:1.0.0.CI-SNAPSHOT" />
-            <element id="library" level="project" name="Maven: org.hsqldb:hsqldb:1.8.0.10" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.0.4.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.0.4.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework.data:spring-datastore-cross-store:1.0.0.M1-SNAPSHOT" />
+            <element id="library" level="project" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.0.Final" />
             <element id="library" level="project" name="Maven: javax.validation:validation-api:1.0.0.GA" />
             <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:4.0.2.GA" />
             <element id="library" level="project" name="Maven: org.apache.tiles:tiles-core:2.2.1" />
@@ -65,11 +68,14 @@
       </root>
     </artifact>
   </component>
-  <component name="BuildJarProjectSettings">
-    <option name="BUILD_JARS_ON_MAKE" value="false" />
+  <component name="ArtifactsStructureConfigurable.UI">
+    <splitter-proportions>
+      <SplitterProportionsDataImpl />
+    </splitter-proportions>
+    <settings />
   </component>
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="Javac" />
+    <option name="DEFAULT_COMPILER" value="ajc" />
     <resourceExtensions>
       <entry name=".+\.(properties|xml|html|dtd|tld)" />
       <entry name=".+\.(gif|png|jpeg|jpg)" />
@@ -87,9 +93,6 @@
       <entry name="?*.ftl" />
     </wildcardResourcePatterns>
     <annotationProcessing enabled="false" useClasspath="true" />
-  </component>
-  <component name="CopyrightManager" default="">
-    <module2copyright />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -133,13 +136,6 @@
   <component name="DependencyValidationManager">
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
-  <component name="EclipseCompilerSettings">
-    <option name="DEBUGGING_INFO" value="true" />
-    <option name="GENERATE_NO_WARNINGS" value="true" />
-    <option name="DEPRECATION" value="false" />
-    <option name="ADDITIONAL_OPTIONS_STRING" value="" />
-    <option name="MAXIMUM_HEAP_SIZE" value="128" />
-  </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="FacetAutodetectingManager">
     <autodetection-disabled>
@@ -149,6 +145,16 @@
         </modules>
       </facet-type>
     </autodetection-disabled>
+  </component>
+  <component name="FacetStructureConfigurable.UI">
+    <splitter-proportions>
+      <SplitterProportionsDataImpl />
+    </splitter-proportions>
+  </component>
+  <component name="GlobalLibrariesConfigurable.UI">
+    <splitter-proportions>
+      <SplitterProportionsDataImpl />
+    </splitter-proportions>
   </component>
   <component name="InspectionProjectProfileManager">
     <profiles>
@@ -216,7 +222,6 @@
         <inspection_tool class="IncrementDecrementUsedAsExpression" enabled="true" level="WARNING" enabled_by_default="true" />
         <inspection_tool class="InstanceofChain" enabled="true" level="WARNING" enabled_by_default="true" />
         <inspection_tool class="InstanceofThis" enabled="true" level="WARNING" enabled_by_default="true" />
-        <inspection_tool class="JDBCResource" enabled="true" level="WARNING" enabled_by_default="true" />
         <inspection_tool class="LocalCanBeFinal" enabled="true" level="WARNING" enabled_by_default="true">
           <option name="REPORT_VARIABLES" value="true" />
           <option name="REPORT_PARAMETERS" value="true" />
@@ -230,9 +235,13 @@
         </inspection_tool>
         <inspection_tool class="MethodOnlyUsedFromInnerClass" enabled="true" level="WARNING" enabled_by_default="true">
           <option name="ignoreMethodsAccessedFromAnonymousClass" value="false" />
+          <option name="ignoreStaticMethodsFromNonStaticInnerClass" value="false" />
+          <option name="onlyReportStaticMethods" value="false" />
         </inspection_tool>
         <inspection_tool class="MissingDeprecatedAnnotation" enabled="true" level="WARNING" enabled_by_default="true" />
-        <inspection_tool class="MissingOverrideAnnotation" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="MissingOverrideAnnotation" enabled="true" level="WARNING" enabled_by_default="true">
+          <option name="ignoreObjectMethods" value="true" />
+        </inspection_tool>
         <inspection_tool class="NestedAssignment" enabled="true" level="WARNING" enabled_by_default="true" />
         <inspection_tool class="ObsoleteCollection" enabled="true" level="WARNING" enabled_by_default="true">
           <option name="ignoreRequiredObsoleteCollectionTypes" value="false" />
@@ -240,7 +249,6 @@
         <inspection_tool class="OverlyStrongTypeCast" enabled="true" level="WARNING" enabled_by_default="true">
           <option name="ignoreInMatchingInstanceof" value="false" />
         </inspection_tool>
-        <inspection_tool class="PublicMethodNotExposedInInterface" enabled="true" level="WARNING" enabled_by_default="true" />
         <inspection_tool class="Singleton" enabled="true" level="WARNING" enabled_by_default="true" />
         <inspection_tool class="StaticMethodOnlyUsedInOneClass" enabled="true" level="WARNING" enabled_by_default="true" />
         <inspection_tool class="StaticNonFinalField" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -251,11 +259,6 @@
         <inspection_tool class="TooBroadScope" enabled="true" level="WARNING" enabled_by_default="true">
           <option name="m_allowConstructorAsInitializer" value="false" />
           <option name="m_onlyLookAtBlocks" value="false" />
-        </inspection_tool>
-        <inspection_tool class="TypeMayBeWeakened" enabled="true" level="WARNING" enabled_by_default="true">
-          <option name="useRighthandTypeAsWeakestTypeInAssignments" value="true" />
-          <option name="useParameterizedTypeForCollectionMethods" value="true" />
-          <option name="doNotWeakenToJavaLangObject" value="true" />
         </inspection_tool>
         <inspection_tool class="UtilityClassWithPublicConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
         <inspection_tool class="UtilityClassWithoutPrivateConstructor" enabled="true" level="WARNING" enabled_by_default="true">
@@ -287,14 +290,6 @@
     <option name="LOCALE" />
     <option name="OPEN_IN_BROWSER" value="true" />
   </component>
-  <component name="JikesSettings">
-    <option name="JIKES_PATH" value="" />
-    <option name="DEBUGGING_INFO" value="true" />
-    <option name="DEPRECATION" value="true" />
-    <option name="GENERATE_NO_WARNINGS" value="false" />
-    <option name="IS_EMACS_ERRORS_MODE" value="true" />
-    <option name="ADDITIONAL_OPTIONS_STRING" value="" />
-  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -306,8 +301,10 @@
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
-  <component name="ProjectKey">
-    <option name="state" value="project://default" />
+  <component name="ModuleStructureConfigurable.UI">
+    <splitter-proportions>
+      <SplitterProportionsDataImpl />
+    </splitter-proportions>
   </component>
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="true" id="Add" />
@@ -319,6 +316,11 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
+  <component name="ProjectLibrariesConfigurable.UI">
+    <splitter-proportions>
+      <SplitterProportionsDataImpl />
+    </splitter-proportions>
+  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/imdb.iml" filepath="$PROJECT_DIR$/imdb.iml" />
@@ -327,15 +329,11 @@
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
+  <component name="ProjectResources">
+    <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/classes" />
-  </component>
-  <component name="RmicSettings">
-    <option name="IS_EANABLED" value="false" />
-    <option name="DEBUGGING_INFO" value="true" />
-    <option name="GENERATE_NO_WARNINGS" value="false" />
-    <option name="GENERATE_IIOP_STUBS" value="false" />
-    <option name="ADDITIONAL_OPTIONS_STRING" value="" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -369,7 +367,7 @@
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" runner="idea" />
+      <extension name="coverage" enabled="false" merge="false" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -389,7 +387,7 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" runner="idea" />
+      <extension name="coverage" enabled="false" merge="false" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -406,6 +404,7 @@
         <value defaultName="moduleWithDependencies" />
       </option>
       <envs />
+      <patterns />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -436,11 +435,7 @@
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="" />
-  </component>
-  <component name="XPathView.XPathProjectComponent">
-    <history />
-    <find-history />
+    <mapping directory="" vcs="Git" />
   </component>
   <component name="libraryTable">
     <library name="Maven: junit:junit:4.8.1">
@@ -663,37 +658,26 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.0.4.RELEASE/spring-tx-3.0.4.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework.data:data-commons:1.0.0.CI-SNAPSHOT">
+    <library name="Maven: org.springframework.data:spring-data-commons:1.0.0.M1-SNAPSHOT">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/data-commons/1.0.0.CI-SNAPSHOT/data-commons-1.0.0.CI-SNAPSHOT.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.0.0.M1-SNAPSHOT/spring-data-commons-1.0.0.M1-SNAPSHOT.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/data-commons/1.0.0.CI-SNAPSHOT/data-commons-1.0.0.CI-SNAPSHOT-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.0.0.M1-SNAPSHOT/spring-data-commons-1.0.0.M1-SNAPSHOT-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/data-commons/1.0.0.CI-SNAPSHOT/data-commons-1.0.0.CI-SNAPSHOT-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.0.0.M1-SNAPSHOT/spring-data-commons-1.0.0.M1-SNAPSHOT-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: javax.persistence:persistence-api:1.0">
+    <library name="Maven: org.springframework.data:spring-datastore-graph:1.0.0.M1-SNAPSHOT">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.springframework.datastore:datastore-graph:1.0.0.CI-SNAPSHOT">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/datastore/datastore-graph/1.0.0.CI-SNAPSHOT/datastore-graph-1.0.0.CI-SNAPSHOT.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/datastore/datastore-graph/1.0.0.CI-SNAPSHOT/datastore-graph-1.0.0.CI-SNAPSHOT-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/datastore/datastore-graph/1.0.0.CI-SNAPSHOT/datastore-graph-1.0.0.CI-SNAPSHOT-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.neo4j:neo4j-kernel:1.1">
@@ -751,48 +735,48 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/2.9.2/lucene-core-2.9.2-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework:spring-jdbc:3.0.3.RELEASE">
+    <library name="Maven: org.springframework:spring-jdbc:3.0.4.RELEASE">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.0.3.RELEASE/spring-jdbc-3.0.3.RELEASE.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.0.4.RELEASE/spring-jdbc-3.0.4.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.0.3.RELEASE/spring-jdbc-3.0.3.RELEASE-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.0.4.RELEASE/spring-jdbc-3.0.4.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.0.3.RELEASE/spring-jdbc-3.0.3.RELEASE-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.0.4.RELEASE/spring-jdbc-3.0.4.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework:spring-orm:3.0.3.RELEASE">
+    <library name="Maven: org.springframework:spring-orm:3.0.4.RELEASE">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.0.3.RELEASE/spring-orm-3.0.3.RELEASE.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.0.4.RELEASE/spring-orm-3.0.4.RELEASE.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.0.3.RELEASE/spring-orm-3.0.3.RELEASE-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.0.4.RELEASE/spring-orm-3.0.4.RELEASE-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.0.3.RELEASE/spring-orm-3.0.3.RELEASE-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.0.4.RELEASE/spring-orm-3.0.4.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.springframework.datastore:datastore-cross-store:1.0.0.CI-SNAPSHOT">
+    <library name="Maven: org.springframework.data:spring-datastore-cross-store:1.0.0.M1-SNAPSHOT">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/datastore/datastore-cross-store/1.0.0.CI-SNAPSHOT/datastore-cross-store-1.0.0.CI-SNAPSHOT.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-cross-store/1.0.0.M1-SNAPSHOT/spring-datastore-cross-store-1.0.0.M1-SNAPSHOT.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/datastore/datastore-cross-store/1.0.0.CI-SNAPSHOT/datastore-cross-store-1.0.0.CI-SNAPSHOT-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-cross-store/1.0.0.M1-SNAPSHOT/spring-datastore-cross-store-1.0.0.M1-SNAPSHOT-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/datastore/datastore-cross-store/1.0.0.CI-SNAPSHOT/datastore-cross-store-1.0.0.CI-SNAPSHOT-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-cross-store/1.0.0.M1-SNAPSHOT/spring-datastore-cross-store-1.0.0.M1-SNAPSHOT-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.hsqldb:hsqldb:1.8.0.10">
+    <library name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.0.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: javax.validation:validation-api:1.0.0.GA">
@@ -980,13 +964,6 @@
             <SplitterProportionsDataImpl />
           </splitter-proportions>
           <settings />
-        </UIState>
-      </state>
-      <state key="Copyright.UI">
-        <UIState>
-          <splitter-proportions>
-            <SplitterProportionsDataImpl />
-          </splitter-proportions>
         </UIState>
       </state>
       <state key="ProjectJDKs.UI">

@@ -27,13 +27,13 @@ public class ImdbSearchEngineImpl implements ImdbSearchEngine
 
     public void indexActor( Actor actor )
     {
-        index( actor.getName(), ((Actor) actor).getUnderlyingNode(),
+        index( actor.getName(), ((Actor) actor).getUnderlyingState(),
             NAME_PART_INDEX, ImdbSearchRelTypes.PART_OF_NAME );
     }
 
     public void indexMovie( Movie movie )
     {
-        index( movie.getTitle(), ((Movie) movie).getUnderlyingNode(),
+        index( movie.getTitle(), ((Movie) movie).getUnderlyingState(),
             TITLE_PART_INDEX, ImdbSearchRelTypes.PART_OF_TITLE );
     }
 

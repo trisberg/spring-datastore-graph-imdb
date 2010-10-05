@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="74478d59-ac4b-4cf6-ba18-dae8217cbd57" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imdb.iws" afterPath="$PROJECT_DIR$/imdb.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imdb.ipr" afterPath="$PROJECT_DIR$/imdb.ipr" />
+    <list default="true" id="74478d59-ac4b-4cf6-ba18-dae8217cbd57" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imdb.iml" afterPath="$PROJECT_DIR$/imdb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imdb.ipr" afterPath="$PROJECT_DIR$/imdb.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imdb.iws" afterPath="$PROJECT_DIR$/imdb.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/ImdbSearchEngineImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/ImdbSearchEngineImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/imdb-app-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/imdb-app-servlet.xml" />
     </list>
-    <ignored path="$USER_HOME_GRAILS$/" />
-    <ignored path="$USER_HOME_GRIFFON$/" />
+    <ignored path="$USER_HOME$/.grails/" />
+    <ignored path="$USER_HOME$/.griffon/" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +27,7 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints>
-      <breakpoint url="file://$USER_HOME$/java/spring/datastore-cross-store/src/main/java/org/springframework/persistence/support/AbstractConstructorEntityInstantiator.java" line="33" class="org.springframework.persistence.support.AbstractConstructorEntityInstantiator" package="org.springframework.persistence.support">
+      <breakpoint url="file://$PROJECT_DIR$/../datastore-cross-store/src/main/java/org/springframework/persistence/support/AbstractConstructorEntityInstantiator.java" line="33" class="org.springframework.persistence.support.AbstractConstructorEntityInstantiator" package="org.springframework.persistence.support">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -35,6 +38,58 @@
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
         <option name="CONDITION" value="c.equals(MovieImpl.class)" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-sources.jar!/org/springframework/datastore/graph/neo4j/fieldaccess/NodeEntityStateAccessors.java" line="23" class="org.springframework.datastore.graph.neo4j.fieldaccess.NodeEntityStateAccessors" package="org.springframework.datastore.graph.neo4j.fieldaccess">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java" line="37" class="org.neo4j.examples.imdb.domain.ImdbServiceImpl" package="org.neo4j.examples.imdb.domain">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-sources.jar!/org/springframework/datastore/graph/neo4j/fieldaccess/DetachableEntityStateAccessors.java" line="86" class="org.springframework.datastore.graph.neo4j.fieldaccess.DetachableEntityStateAccessors" package="org.springframework.datastore.graph.neo4j.fieldaccess">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-sources.jar!/org/springframework/datastore/graph/neo4j/fieldaccess/ConvertingNodePropertyFieldAccessorFactory.java" line="32" class="org.springframework.datastore.graph.neo4j.fieldaccess.ConvertingNodePropertyFieldAccessorFactory" package="org.springframework.datastore.graph.neo4j.fieldaccess">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
@@ -85,40 +140,24 @@
       <property name="field_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByClasses" value="true" />
       <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="exception_breakpoints_groupByClasses" value="true" />
+      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="method_breakpoints_groupByMethods" value="false" />
     </ui_properties>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="imdb" />
   </component>
-  <component name="FileColors" enabled="true" enabledForTabs="true" />
+  <component name="FileColors" enabled="true" enabledForTabs="true" highlightNonProjectFiles="true" nonProjectFilesColor="ffffe4" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ImdbReaderImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/parser/ImdbReaderImpl.java">
+      <file leaf-file-name="ImdbServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="25" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MovieData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/parser/MovieData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/parser/RoleData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="37" column="0" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,149 +165,172 @@
       <file leaf-file-name="ImdbService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/ImdbService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="10" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
+            <state line="4" column="17" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImdbServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java">
+      <file leaf-file-name="imdb-app-servlet.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/imdb-app-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="50" selection-start="2970" selection-end="2983" vertical-scroll-proportion="0.0">
+            <state line="9" column="16" selection-start="684" selection-end="684" vertical-scroll-proportion="0.3292683">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-context-2.5.xsd" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.0.4.RELEASE/spring-context-3.0.4.RELEASE.jar!/org/springframework/context/config/spring-context-2.5.xsd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="290" column="4" selection-start="12436" selection-end="12436" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieFindControllerDelegate.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/MovieFindControllerDelegate.java">
+      <file leaf-file-name="Neo4jConversionServiceFactoryBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-sources.jar!/org/springframework/datastore/graph/neo4j/fieldaccess/Neo4jConversionServiceFactoryBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="48" selection-start="941" selection-end="949" vertical-scroll-proportion="0.615894">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SetupForm.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/SetupForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+            <state line="12" column="13" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SetupControllerDelegate.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/SetupControllerDelegate.java">
+      <file leaf-file-name="ConvertingNodePropertyFieldAccessorFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-sources.jar!/org/springframework/datastore/graph/neo4j/fieldaccess/ConvertingNodePropertyFieldAccessorFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+            <state line="19" column="16" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SetupController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/SetupController.java">
+      <file leaf-file-name="ConversionService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.0.4.RELEASE/spring-core-3.0.4.RELEASE-sources.jar!/org/springframework/core/convert/ConversionService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
+            <state line="25" column="17" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieForm.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/MovieForm.java">
+      <file leaf-file-name="AbstractFormController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.0.4.RELEASE/spring-webmvc-3.0.4.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/AbstractFormController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+            <state line="235" column="22" selection-start="12487" selection-end="12487" vertical-scroll-proportion="-3.6538463">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Role.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/Role.java">
+      <file leaf-file-name="Movie.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="12" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActorData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/parser/ActorData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImdbReader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/parser/ImdbReader.java">
+      <file leaf-file-name="ImdbReaderImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/parser/ImdbReaderImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="17" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+            <state line="32" column="25" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimplePathFinder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/util/SimplePathFinder.java">
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1914" selection-end="1914" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getMatch#0;class#PathReturnEval#0;class#SimplePathFinder#0" expanded="true" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
             </state>
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PathFinder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/util/PathFinder.java">
+      <file leaf-file-name="NodeEntityStateAccessorsFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-sources.jar!/org/springframework/datastore/graph/neo4j/fieldaccess/NodeEntityStateAccessorsFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="17" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+            <state line="28" column="33" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActorFindControllerDelegate.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/ActorFindControllerDelegate.java">
+      <file leaf-file-name="NodeEntityStateAccessors.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-sources.jar!/org/springframework/datastore/graph/neo4j/fieldaccess/NodeEntityStateAccessors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="13" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0">
+            <state line="22" column="36" selection-start="1019" selection-end="1039" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActorForm.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/ActorForm.java">
+      <file leaf-file-name="DetachableEntityStateAccessors.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-sources.jar!/org/springframework/datastore/graph/neo4j/fieldaccess/DetachableEntityStateAccessors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+            <state line="86" column="0" selection-start="3030" selection-end="3030" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/FindController.java">
+      <file leaf-file-name="Neo4jNodeBacking.aj" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-sources.jar!/org/springframework/datastore/graph/neo4j/spi/node/Neo4jNodeBacking.aj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="37" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
+            <state line="56" column="25" selection-start="2912" selection-end="2912" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindControllerDelegate.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/FindControllerDelegate.java">
+      <file leaf-file-name="DelegatingFieldAccessorFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-sources.jar!/org/springframework/datastore/graph/neo4j/fieldaccess/DelegatingFieldAccessorFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="61" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
+            <state line="43" column="0" selection-start="1957" selection-end="1957" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectionUtils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.0.4.RELEASE/spring-core-3.0.4.RELEASE-sources.jar!/org/springframework/util/ReflectionUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="514" column="38" selection-start="19534" selection-end="19534" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodeDelegatingFieldAccessorFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-sources.jar!/org/springframework/datastore/graph/neo4j/fieldaccess/NodeDelegatingFieldAccessorFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="38" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="418" column="42" selection-start="15879" selection-end="15879" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -277,7 +339,7 @@
       <file leaf-file-name="ImdbSetupControllerDelegate.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/ImdbSetupControllerDelegate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="80" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0">
+            <state line="30" column="24" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -310,36 +372,31 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="GIT_EXECUTABLE" value="/usr/bin/git" />
+    <option name="GIT_EXECUTABLE" value="/opt/local/bin/git" />
     <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
+    <option name="UPDATE_CHANGES_POLICY" value="STASH" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/imdb-app-servlet.xml" />
-        <option value="$USER_HOME$/java/spring/datastore-cross-store/src/main/java/org/springframework/persistence/support/AbstractConstructorEntityInstantiator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/ImdbSearchEngineImpl.java" />
+        <option value="$PROJECT_DIR$/../datastore-cross-store/src/main/java/org/springframework/persistence/support/AbstractConstructorEntityInstantiator.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/ActorImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/MovieImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/RoleImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/Actor.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/Movie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/util/SimplePathFinder.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/FindController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/FindControllerDelegate.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/ImdbSetupControllerDelegate.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/SetupController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/util/SimplePathFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/ImdbSearchEngineImpl.java" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-sources.jar!/org/springframework/datastore/graph/neo4j/fieldaccess/DelegatingFieldAccessorFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/imdb-app-servlet.xml" />
       </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/java/apache-maven-2.2.1" />
-      </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -411,8 +468,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -431,160 +486,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-datastore-graph-imdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-datastore-graph-imdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-datastore-graph-imdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-datastore-graph-imdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-datastore-graph-imdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-datastore-graph-imdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -592,12 +497,12 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="MavenSettings" />
+    <property name="options.lastSelected" value="editor.preferences.tabs" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -677,6 +582,7 @@
         <value defaultName="moduleWithDependencies" />
       </option>
       <envs />
+      <patterns />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -738,24 +644,24 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JavaRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.398773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JavaRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12926829" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20325203" sideWeight="0.6702454" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20325203" sideWeight="0.601227" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2495935" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="122" width="1080" height="574" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JavaRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JavaRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -771,6 +677,7 @@
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
     <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
@@ -790,163 +697,49 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/datastore/datastore-graph/1.0.0.CI-SNAPSHOT/datastore-graph-1.0.0.CI-SNAPSHOT.jar!/org/springframework/datastore/graph/neo4j/spi/node/Neo4jConstructorGraphEntityInstantiator.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/parser/RoleData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="195" selection-end="195" vertical-scroll-proportion="0.082051285" />
+        <state line="5" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/datastore/datastore-cross-store/1.0.0.CI-SNAPSHOT/datastore-cross-store-1.0.0.CI-SNAPSHOT.jar!/org/springframework/persistence/support/AbstractConstructorEntityInstantiator.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/MovieFindControllerDelegate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="29" selection-start="193" selection-end="193" vertical-scroll-proportion="0.082051285" />
+        <state line="42" column="11" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/java/spring/datastore-graph/src/main/java/org/springframework/datastore/graph/neo4j/spi/node/Neo4jConstructorGraphEntityInstantiator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/SetupForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="73" selection-start="464" selection-end="464" vertical-scroll-proportion="0.23113964" />
+        <state line="2" column="13" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/java/spring/datastore-cross-store/src/main/java/org/springframework/persistence/support/AbstractConstructorEntityInstantiator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/SetupControllerDelegate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="24" selection-start="1841" selection-end="1841" vertical-scroll-proportion="0.3114754" />
+        <state line="6" column="17" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.0.4.RELEASE/spring-core-3.0.4.RELEASE-sources.jar!/org/springframework/util/ClassUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/SetupController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="587" column="37" selection-start="21959" selection-end="21959" vertical-scroll-proportion="0.019261638" />
+        <state line="20" column="0" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/java/src/1.6.0/src/java/lang/Class.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/MovieForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1653" column="72" selection-start="68779" selection-end="68779" vertical-scroll-proportion="0.019261638" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/imdb-app-servlet.xml">
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="54" selection-start="739" selection-end="739" vertical-scroll-proportion="0.020408163" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/ImdbSearchEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="95" selection-end="95" vertical-scroll-proportion="0.07704655" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-index/1.1/neo4j-index-1.1-sources.jar!/org/neo4j/index/IndexService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="17" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.019261638" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/RelTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="12" selection-start="97" selection-end="97" vertical-scroll-proportion="0.07704655" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-kernel/1.1/neo4j-kernel-1.1-sources.jar!/org/neo4j/kernel/impl/traversal/OldTraverserWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="27" selection-start="2795" selection-end="2803" vertical-scroll-proportion="0.019261638" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="26" selection-start="6093" selection-end="6093" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/ImdbSearchEngineImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="22" selection-start="3294" selection-end="3294" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/parser/ImdbParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/Actor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/ImdbService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="10" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="50" selection-start="2970" selection-end="2983" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="13" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="12" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="32" column="12" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/parser/ActorData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="13" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/parser/ImdbReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/parser/ImdbReaderImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="25" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/parser/MovieData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/parser/RoleData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/util/SimplePathFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1914" selection-end="1914" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getMatch#0;class#PathReturnEval#0;class#SimplePathFinder#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="7" column="17" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/util/PathFinder.java">
@@ -958,74 +751,190 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/ActorFindControllerDelegate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="18" column="13" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/ActorForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="13" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/FindController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="37" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="15" column="37" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/FindControllerDelegate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="61" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
+        <state line="8" column="61" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/util/SimplePathFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="71" selection-start="2027" selection-end="2027" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/ImdbSearchEngineImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="92" selection-start="1343" selection-end="1343" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/ImdbService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/parser/ImdbReaderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="25" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/ImdbSetupControllerDelegate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="80" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0">
+        <state line="30" column="24" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/SetupForm.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-sources.jar!/org/springframework/datastore/graph/neo4j/fieldaccess/NodeDelegatingFieldAccessorFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+        <state line="20" column="38" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/SetupControllerDelegate.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-sources.jar!/org/springframework/datastore/graph/neo4j/fieldaccess/NodeEntityStateAccessorsFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+        <state line="28" column="33" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/SetupController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
+        <state line="418" column="42" selection-start="15879" selection-end="15879" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/MovieForm.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-sources.jar!/org/springframework/datastore/graph/neo4j/fieldaccess/NodeEntityStateAccessors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+        <state line="22" column="36" selection-start="1019" selection-end="1039" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/web/MovieFindControllerDelegate.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-sources.jar!/org/springframework/datastore/graph/neo4j/fieldaccess/DetachableEntityStateAccessors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="48" selection-start="941" selection-end="949" vertical-scroll-proportion="0.615894">
+        <state line="86" column="0" selection-start="3030" selection-end="3030" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-sources.jar!/org/springframework/datastore/graph/neo4j/spi/node/Neo4jNodeBacking.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="25" selection-start="2912" selection-end="2912" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.0.4.RELEASE/spring-webmvc-3.0.4.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/AbstractFormController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="235" column="22" selection-start="12487" selection-end="12487" vertical-scroll-proportion="-3.6538463">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-sources.jar!/org/springframework/datastore/graph/neo4j/fieldaccess/Neo4jConversionServiceFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.0.4.RELEASE/spring-core-3.0.4.RELEASE-sources.jar!/org/springframework/core/convert/ConversionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="17" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-sources.jar!/org/springframework/datastore/graph/neo4j/fieldaccess/ConvertingNodePropertyFieldAccessorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="16" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-datastore-graph/1.0.0.M1-SNAPSHOT/spring-datastore-graph-1.0.0.M1-SNAPSHOT-sources.jar!/org/springframework/datastore/graph/neo4j/fieldaccess/DelegatingFieldAccessorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="1957" selection-end="1957" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.0.4.RELEASE/spring-core-3.0.4.RELEASE-sources.jar!/org/springframework/util/ReflectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="514" column="38" selection-start="19534" selection-end="19534" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.0.4.RELEASE/spring-context-3.0.4.RELEASE.jar!/org/springframework/context/config/spring-context-2.5.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="290" column="4" selection-start="12436" selection-end="12436" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/imdb-app-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="16" selection-start="684" selection-end="684" vertical-scroll-proportion="0.3292683">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>
