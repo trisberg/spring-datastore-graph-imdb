@@ -1,15 +1,15 @@
 package org.neo4j.examples.imdb.domain;
 
-import org.springframework.datastore.graph.api.GraphRelationship;
-import org.springframework.datastore.graph.api.GraphRelationshipEndNode;
-import org.springframework.datastore.graph.api.GraphRelationshipStartNode;
+import org.springframework.datastore.graph.annotation.EndNode;
+import org.springframework.datastore.graph.annotation.RelationshipEntity;
+import org.springframework.datastore.graph.annotation.StartNode;
 
-@GraphRelationship
+@RelationshipEntity
 public class Role {
     String role;
-    @GraphRelationshipStartNode
+    @StartNode
     Actor actor;
-    @GraphRelationshipEndNode
+    @EndNode
     Movie movie;
 
     @Override

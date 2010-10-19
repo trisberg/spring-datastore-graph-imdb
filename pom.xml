@@ -7,12 +7,12 @@
 	<version>0.1.0.BUILD-SNAPSHOT</version>
 	<name>imdb</name>
 	<properties>
-		<roo.version>1.1.0.M4</roo.version>
+		<roo.version>1.1.0.RC1</roo.version>
 		<spring.version>3.0.4.RELEASE</spring.version>
 		<aspectj.version>1.6.10.RC1</aspectj.version>
 		<slf4j.version>1.6.1</slf4j.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.datastore.neo4j.version>1.0.0.BUILD-SNAPSHOT</spring.datastore.neo4j.version>
+        <spring.datastore.neo4j.version>1.0.0.M1-SNAPSHOT</spring.datastore.neo4j.version>
     <neo4j.version>1.1</neo4j.version>
     </properties>
 	<repositories>

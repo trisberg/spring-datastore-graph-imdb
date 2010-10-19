@@ -1,19 +1,19 @@
 package org.neo4j.examples.imdb.domain;
 
-import org.springframework.datastore.graph.api.Direction;
-import org.springframework.datastore.graph.api.GraphEntity;
-import org.springframework.datastore.graph.api.GraphEntityProperty;
-import org.springframework.datastore.graph.api.GraphEntityRelationship;
-
 import java.util.Set;
 
-@GraphEntity
+import org.springframework.datastore.graph.annotation.GraphProperty;
+import org.springframework.datastore.graph.annotation.NodeEntity;
+import org.springframework.datastore.graph.annotation.RelatedTo;
+import org.springframework.datastore.graph.api.Direction;
+
+@NodeEntity
 public class Movie {
-    @GraphEntityProperty(index = true)
+    @GraphProperty(index = true)
     String title;
     int year;
 
-    @GraphEntityRelationship(type="ACTS_IN",elementClass = Actor.class, direction = Direction.INCOMING)
+    @RelatedTo(type="ACTS_IN",elementClass = Actor.class, direction = Direction.INCOMING)
     Set<Actor> actors;
     static final String TITLE_INDEX = "title";
 
